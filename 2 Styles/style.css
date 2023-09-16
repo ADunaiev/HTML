@@ -1,0 +1,7 @@
+.blue { /* у файлі зі стилями не потрібен тег <style>*/
+    color: blue;
+    font-weight: bold; /* атрибути принято ставити за абеткою*/
+}
+.center {
+    text-align: center;
+}
