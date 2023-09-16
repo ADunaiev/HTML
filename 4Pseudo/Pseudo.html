@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo</title>
+    <link rel="stylesheet" href="Pseudo.css">
+</head>
+<body>
+    <ul class="menu">
+        <li>File
+            <div class="sub-menu">
+                <a href="#!">New</a>
+                <a href="#!">Open</a>
+                <a href="#!">Save</a>
+                <a href="#!">Exit</a>
+            </div>
+        </li>
+        <li>Edit
+            <div class="sub-menu">
+                <a href="#!">Cut</a>
+                <a href="#!">Copy</a>
+                <a href="#!">Paste</a>
+            </div>
+        </li>
+        <li>View
+            <div class="sub-menu">
+                <a href="#!">Full screen</a>
+                <a href="#!">Settings</a>
+                <a href="#!">Weather</a>
+            </div>
+        </li>
+    </ul>
+    <h1>Псевдокласи та псевдоелементи</h1>
+    <h2>Псевдокласи</h2>
+    <p>
+        Псевдокласи - стильові класи (набори атрибутів), які автоматично 
+        додаються елементу при настанні певних подій/умов: наведення курсору миші, 
+        активація фокусом, відвідання посилання, тощо.
+    </p>
+    <p>
+        Найпоширенніший Псевдоклас - :hover, який відповідає за стан, коли курсор миши 
+        знаходиться над елементом.
+    </p>
+    <div class="hover-demo">
+        Наведи на мене мишу
+    </div>
+    <div class="sprite-demo"></div>
+    <div class="sprite-flag"></div>
+    <h2>Псевдоелементи</h2>
+    <p>
+        Псевдоелементи - це додаткові елементи, які належать даному елементу 
+        (стилізуються та переміщуються разом з ним), але, у той же час, дозволяють окрему
+        стилізацію. 
+        Найбільш поширені псевдоелементи ::before тa ::after
+        Псевдоелементи використовуються для створення комплексних утворень, які сприймаються 
+        як один. 
+    </p>
+    <div class="battery bat-high" ></div>
+    <div class="battery bat-med" ></div>
+    <div class="battery bat-low"></div>
+</body>
+</html>
