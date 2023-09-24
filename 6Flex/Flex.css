@@ -1,0 +1,132 @@
+body {
+    background-color: #eee;
+    color:midnightblue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-color: #8a2be2;
+    display: inline-flex;
+    padding: 10px;
+}
+.c1 {
+    flex-direction: row;
+}
+.c2 {
+    flex-direction: row-reverse;
+}
+.c3 {
+    flex-direction: column;
+}
+.c4 {
+    flex-direction: column-reverse;
+}
+.c5 {
+    width: 84px;
+}
+.c5 .item {
+    flex-shrink: 2;
+}
+.c6 {
+    flex-wrap: wrap;
+    width: 94px;
+}
+.c7 {
+    flex-wrap: wrap-reverse;
+    width: 95px;
+}
+.c8 {
+    justify-content: start;
+    padding-inline: 0;
+    width: 144px;
+}
+.c9 {
+    justify-content: space-between;
+    padding-inline: 0;
+    width: 144px;
+}
+.c10 {
+    justify-content: space-around;
+    padding-inline: 0;
+    width: 144px;
+}
+.c11 {
+    justify-content: space-evenly;
+    padding-inline: 0;
+    width: 144px;
+}
+
+.c12 {
+    align-items: stretch;
+    justify-content: space-between;
+    height: 80px;
+    padding: inline;
+    vertical-align: middle;
+    width: 144px;
+}
+.c13 {
+    align-items:end;
+    justify-content: space-between;
+    height: 80px;
+    padding: inline;
+    vertical-align: middle;
+    width: 144px;
+}
+.c14 {
+    align-items:center;
+    justify-content: space-between;
+    height: 80px;
+    padding: inline;
+    vertical-align: middle;
+    width: 144px;
+}
+.c15 {
+    align-items:baseline;
+    justify-content: space-between;
+    height: 80px;
+    padding: inline;
+    vertical-align: middle;
+    width: 144px;
+}
+.c16 {
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: inline;
+    vertical-align: middle;
+    width: 144px;
+}
+.c17 {
+    align-items: end;
+    gap: 8px;
+    height: 80px;
+    vertical-align: middle;
+    width: 180px;
+}
+.c16 .i2 {
+    order: 1;
+}
+.c17 .i2 {
+    flex-grow: 4;
+}
+
+.item {
+    background-color: #ffa500;
+    justify-content: space-between;
+    border-radius: 6px;
+    color: snow;
+    padding: 10px;
+}
+.i1 {
+    min-height: 1em;
+}
+.i2 {
+    min-height: 2em;
+}
+.i3 {
+    min-height: 1.5em;
+}
+.i4 {
+    min-height: 3em;
+}

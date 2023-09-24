@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="Table..css">
+</head>
+<body>
+    <h1>Робота з таблицями</h1>
+    <table class="products-table t1"><!-- таблиця -->
+        <thead><!-- заголовкова частина -->
+            <tr><!-- рядок -->
+                <th><!-- заголовкова комірка -->
+                    Назва
+                </th>
+                <th>
+                    Кількість
+                </th>
+            </tr>
+        </thead>
+
+    <tbody> <!-- основна частина -->
+        <tr><!-- рядок -->
+            <td><!-- комірка даних -->
+                Олівець
+            </td>
+            <td>
+                10
+            </td>
+        </tr>
+        <tr>
+            <td>Ручка</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>Пензель</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>Ножіці</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>Папір</td>
+            <td>18</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <th>
+                Разом
+            </th>
+            <th>
+                75
+            </th>
+        </tr>
+
+
+
+    </tfoot>
+    </table>
+    <br><br>    
+    
+    <table class="products-table t2"><!-- без структурних тегів-->
+        <tr>
+            <th>Урок</th>
+            <th>Предмет</th>
+            <th>Кабінет</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td rowspan="2">Алгебра</td>
+            <td rowspan="3">3</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <!-- пропускаєм-->
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Історія</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td rowspan="2">Фізика</td>
+            <td rowspan="2">5</td>
+        </tr>
+        <tr>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td colspan="2">-- класна година --</td>
+            <td>12</td>
+        </tr>
+    </table>
+
+</body>
+</html>
+<!--
+Урок  Предмет   Кабінет
+1     !
+2     Історія
+3     Хімія
+4     Фізика
+5     ІТ
+6     -->
